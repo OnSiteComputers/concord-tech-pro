@@ -129,10 +129,10 @@
 
 .hero { background: var(--gray-light); padding: 40px 24px 60px; position: relative; overflow: hidden; }
 .hero-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 380px; gap: 60px; align-items: center; }
-.hero-badge { display: inline-flex; align-items: center; gap: 10px; background: var(--white); border: 3px solid var(--orange); border-radius: 12px; padding: 14px 24px; margin-bottom: 28px; box-shadow: 0 4px 16px rgba(232,82,26,0.2); transition: transform 0.2s, box-shadow 0.2s; }
+.hero-badge { display: inline-flex; align-items: center; gap: 10px; background: var(--white); border: 3px solid var(--orange); border-radius: 12px; padding: 18px 32px; margin-bottom: 28px; box-shadow: 0 4px 16px rgba(232,82,26,0.2); transition: transform 0.2s, box-shadow 0.2s; }
 .hero-badge:hover { transform: translateY(-4px); box-shadow: 0 8px 30px rgba(0,0,0,0.12); }
-.hero-badge .stars { color: var(--gold); font-size: 26px; letter-spacing: 2px; }
-.hero-badge .badge-text { color: var(--navy); font-size: 20px; font-weight: 700; letter-spacing: 0.5px; font-family: 'Oswald', sans-serif; }
+.hero-badge .stars { color: var(--gold); font-size: 32px; letter-spacing: 2px; }
+.hero-badge .badge-text { color: var(--navy); font-size: 24px; font-weight: 700; letter-spacing: 0.5px; font-family: 'Oswald', sans-serif; }
 .hero h1 { font-family: 'Oswald', sans-serif; font-size: 52px; font-weight: 700; color: var(--navy); line-height: 1.25; margin-bottom: 20px; letter-spacing: -0.5px; }
 .hero h1 span { color: var(--orange-light); }
 .hero-sub { font-size: 18px; color: var(--text-mid); line-height: 1.7; margin-bottom: 36px; max-width: 580px; }
