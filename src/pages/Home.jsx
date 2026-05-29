@@ -36,16 +36,19 @@ export default function Home() {
         <div className="nav-inner">
           <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
             <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/bb93d1602_onsite_logo_201x196_clear.png" alt="On-Site Computer Service Logo" style={{ height: '100px', width: 'auto', objectFit: 'contain' }} />
-            <div className="nav-logo-text" style={{ paddingTop: '8px' }}>
-              <span className="brand">On-Site Computer Service</span>
-              <span className="tagline">53 Cabarrus Ave West, Concord, NC 28025</span>
+            <div className="nav-logo-text" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', paddingTop: '4px' }}>
+              <span className="brand" style={{ whiteSpace: 'nowrap' }}>On-Site Computer Service</span>
+              <span className="tagline" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2px' }}>
+                <span>53 Cabarrus Avenue West</span>
+                <span>Concord, North Carolina</span>
+              </span>
             </div>
           </div>
           <button
             className="hamburger-btn"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
-            style={{ alignSelf: 'flex-end', marginBottom: '8px' }}
+            style={{ alignSelf: 'flex-end', marginBottom: '4px' }}
           >
             {menuOpen ? (
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
