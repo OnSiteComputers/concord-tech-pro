@@ -42,7 +42,7 @@ export default function Home() {
               scrollToSection("top");
             }}
           >
-            <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/38df801b0_LogonewNoBackgroundnobackgroundfinal3.png" alt="On-Site Computer Service Logo" />
+            <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/bb93d1602_onsite_logo_201x196_clear.png" alt="On-Site Computer Service Logo" />
             <div className="nav-logo-text">
               <span className="brand">On-Site Computer Services</span>
               <span className="tagline">53 Cabarrus Ave West, Concord, NC 28025</span>
@@ -201,7 +201,7 @@ export default function Home() {
               </div>
             </div>
             <div className="about-logo-wrap">
-              <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/38df801b0_LogonewNoBackgroundnobackgroundfinal3.png" alt="On-Site Computer Service Logo" />
+              <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/bb93d1602_onsite_logo_201x196_clear.png" alt="On-Site Computer Service Logo" />
             </div>
           </div>
         </div>
