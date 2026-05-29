@@ -196,9 +196,11 @@ export default function Home() {
       {/* CONTACT & MAP */}
       <section id="contact-section" className="contact">
         <div className="section-inner">
-          <span className="section-tag">Get In Touch</span>
-          <h2 className="section-title">Contact Us</h2>
-          <p className="section-sub">Have a question or need computer help? We're here for you.</p>
+          <div style={{textAlign: 'center'}}>
+            <span className="section-tag">Get In Touch</span>
+            <h2 className="section-title">Contact Us</h2>
+            <p className="section-sub" style={{margin: '0 auto 48px'}}>Have a question or need computer help? We're here for you.</p>
+          </div>
           <div className="contact-grid">
             <div className="contact-form">
               <h3>Send Us a Message</h3>
