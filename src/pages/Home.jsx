@@ -49,7 +49,7 @@ export default function Home() {
               scrollToSection("top");
             }}
           >
-            <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/38df801b0_LogonewNoBackgroundnobackgroundfinal3.png" alt="On-Site Computer Service Logo" style={{height: '120px', width: 'auto'}} />
+            <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/38df801b0_LogonewNoBackgroundnobackgroundfinal3.png" alt="On-Site Computer Service Logo" style={{height: '60px', width: 'auto'}} />
             <div className="nav-logo-text">
               <span className="brand">On-Site Computer Services</span>
               <span className="tagline" style={{display: 'block', marginTop: '4px'}}>53 Cabarrus Ave West<br />Concord, NC 28025</span>
