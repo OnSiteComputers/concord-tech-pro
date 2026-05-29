@@ -33,6 +33,13 @@ export default function Home() {
     <div className="site-wrapper">
       {/* NAV */}
       <nav>
+        <div className="nav-top-strip">
+          <div className="nav-top-inner">
+            <span>📍 53 Cabarrus Ave West, Concord NC 28025</span>
+            <span>🕐 Mon–Fri: 10am–6pm &nbsp;·&nbsp; Sat: By Appointment</span>
+            <a href="tel:9802360810">☎ 980-236-0810</a>
+          </div>
+        </div>
         <div className="nav-inner">
           <a
             href="#top"
@@ -145,6 +152,9 @@ export default function Home() {
             <div className="why-card"><div className="why-icon">💻</div><h3>All Types of Computers</h3><p>Desktops, laptops, custom gaming PCs, workstations, and Apple products — we service them all.</p></div>
             <div className="why-card"><div className="why-icon">⚙️</div><h3>Hardware &amp; Software</h3><p>From hardware upgrades and SSD installs to virus removal and OS optimization — covered.</p></div>
             <div className="why-card"><div className="why-icon">🏘️</div><h3>Home or Business</h3><p>We come to you or you visit our Concord store — flexible options that fit your schedule.</p></div>
+          </div>
+          <div style={{marginTop: '40px', textAlign: 'center'}}>
+            <a href="#contact-section" className="btn-primary" onClick={(e) => { e.preventDefault(); scrollToSection('contact-section'); }}>Get a Free Diagnosis →</a>
           </div>
         </div>
       </section>
