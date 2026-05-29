@@ -64,6 +64,7 @@ export default function Home() {
             <li><NavLink to="contact-section">Contact</NavLink></li>
           </ul>
           <div className="nav-right-block">
+            <div className="nav-address">📍 53 Cabarrus Ave West, Concord NC 28025</div>
             <div className="nav-action-btns">
               <a href="tel:9802360810" className="btn-primary">☎ 980-236-0810</a>
               <a href="https://www.google.com/maps/dir//53+Cabarrus+Ave+W,+Concord,+NC+28025" target="_blank" rel="noopener noreferrer" className="btn-secondary">📍 Get Directions</a>
