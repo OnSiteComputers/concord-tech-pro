@@ -32,7 +32,7 @@ export default function Home() {
   return (
     <div className="site-wrapper">
       {/* NAV */}
-      <nav>
+      <nav style={{height: '300px', minHeight: '300px'}}>
         <div className="nav-top-strip">
           <div className="nav-top-inner">
             <span>📍 53 Cabarrus Ave West, Concord NC 28025</span>
@@ -40,7 +40,7 @@ export default function Home() {
             <a href="tel:9802360810">☎ 980-236-0810</a>
           </div>
         </div>
-        <div className="nav-inner">
+        <div className="nav-inner" style={{height: '260px', minHeight: '260px', alignItems: 'center'}}>
           <a
             href="#top"
             className="nav-logo"
@@ -49,7 +49,7 @@ export default function Home() {
               scrollToSection("top");
             }}
           >
-            <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/38df801b0_LogonewNoBackgroundnobackgroundfinal3.png" alt="On-Site Computer Service Logo" />
+            <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/38df801b0_LogonewNoBackgroundnobackgroundfinal3.png" alt="On-Site Computer Service Logo" style={{height: '180px', width: 'auto'}} />
             <div className="nav-logo-text">
               <span className="brand">On-Site Computer Services</span>
               <span className="tagline" style={{display: 'block', marginTop: '4px'}}>53 Cabarrus Ave West<br />Concord, NC 28025</span>
