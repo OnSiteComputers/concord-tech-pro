@@ -58,8 +58,8 @@ export default function Home() {
               <span className="stars">★★★★★</span>
               <span className="badge-text">170+ Five-Star Google Reviews</span>
             </div>
-            <h1>Expert Computer<br />Repair in <span>Concord, NC</span></h1>
-            <p className="hero-sub">Fast diagnostics. No guesswork. Most repairs completed within 24–48 hours. Many customers come to us after being told their computer couldn't be fixed.</p>
+            <h1>Concord's Most Trusted<br />Computer Repair — <span>170+ 5-Star Reviews</span></h1>
+            <p className="hero-sub">Fast diagnostics. No guesswork. Most repairs completed within 24–48 hours. Many customers come to us after being told their computer couldn't be fixed. Open Mon–Fri 10am–6pm · Sat by Appointment.</p>
             <div className="hero-btns">
               <a href="tel:9802360810" className="btn-primary">☎ 980-236-0810</a>
               <a href="https://www.google.com/maps/dir//53+Cabarrus+Ave+W,+Concord,+NC+28025" target="_blank" rel="noopener noreferrer" className="btn-secondary">📍 Get Directions</a>
@@ -128,7 +128,7 @@ export default function Home() {
             <div className="service-card">
               <div className="service-icon">🖥️</div>
               <h3>Computer &amp; Gaming PC Repair</h3>
-              <p>We repair and troubleshoot both store-bought and custom-built gaming PCs. From crashes and overheating to performance issues and upgrades — we fix it right.</p>
+              <p>We repair and troubleshoot both store-bought and custom-built gaming PCs — HP, Dell, Lenovo, ASUS, MSI, Apple Mac and more. From crashes and overheating to performance issues and upgrades — we fix it right.</p>
             </div>
             <div className="service-card">
               <div className="service-icon">🛡️</div>
@@ -166,8 +166,8 @@ export default function Home() {
             <div>
               <span className="section-tag">About Us</span>
               <h2 className="section-title">25+ Years of Hands-On Experience</h2>
-              <p className="section-sub">With over 25 years of hands-on experience, I diagnose and repair computers the right way — no guesswork. From simple issues to systems other shops said were unfixable, I take the time to find the real problem and fix it right.</p>
-              <p style={{color: 'var(--text-mid)', fontSize: '16px', lineHeight: 1.7, marginBottom: '36px'}}>We offer both on-site service and in-store repairs at our Concord location, giving you the flexibility to choose what works best for you. Whether you want us to come to you or prefer to drop your computer off, we make the process fast, easy, and stress-free.</p>
+              <p className="section-sub">Hi, I'm Greg — and with over 25 years of hands-on experience, I diagnose and repair computers the right way, no guesswork. From simple issues to systems other shops said were unfixable, I take the time to find the real problem and fix it right. All repairs come with a 90-day warranty.</p>
+              <p style={{color: 'var(--text-mid)', fontSize: '16px', lineHeight: 1.7, marginBottom: '36px'}}>We offer both on-site service and in-store repairs at our Concord location, giving you the flexibility to choose what works best for you. Whether you want us to come to you or prefer to drop your computer off, we make the process fast, easy, and stress-free. Proudly serving Concord, Kannapolis, Harrisburg, Huntersville and surrounding areas.</p>
               <div className="about-stats">
                 <div className="stat-box"><div className="num">170+</div><div className="lbl">5-Star Reviews</div></div>
                 <div className="stat-box"><div className="num">4.9★</div><div className="lbl">Google Rating</div></div>
@@ -222,7 +222,7 @@ export default function Home() {
                 </select>
               </div>
               <div className="form-group"><label>Message</label><textarea placeholder="Describe your computer issue..."></textarea></div>
-              <button className="form-submit">Send Message →</button>
+              <button className="form-submit">Get a Free Diagnosis →</button>
             </div>
             <div className="contact-right">
               <h3>Find Us</h3>
@@ -255,7 +255,7 @@ export default function Home() {
                 <div>
                   <div className="info-label">Our Location</div>
                   <div className="info-value"><a href="https://www.google.com/maps/dir//53+Cabarrus+Ave+W,+Concord,+NC+28025" target="_blank" rel="noopener noreferrer">53 Cabarrus Ave West, Concord NC 28025</a></div>
-                  <div className="info-sub">Serving Concord &amp; surrounding areas</div>
+                  <div className="info-sub">Serving Concord, Kannapolis, Harrisburg, Huntersville &amp; surrounding areas</div>
                 </div>
               </div>
               <div className="info-item">
