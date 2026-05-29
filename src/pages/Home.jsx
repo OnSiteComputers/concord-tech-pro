@@ -1,5 +1,5 @@
 import { useEffect, useCallback } from "react";
-import "@/pages/Home.css";
+
 
 const scrollToSection = (id) => {
   const el = document.getElementById(id);
