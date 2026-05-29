@@ -111,10 +111,7 @@ export default function Home() {
             </div>
             <h1>Concord's Most Trusted<br />Computer Repair — <span>170+ 5-Star Reviews</span></h1>
             <p className="hero-sub">Fast diagnostics. No guesswork. Most repairs completed within 24–48 hours. Many customers come to us after being told their computer couldn't be fixed. Open Mon–Fri 10am–6pm · Sat by Appointment.</p>
-            <div className="hero-btns">
-              <a href="tel:9802360810" className="btn-primary">☎ 980-236-0810</a>
-              <a href="https://www.google.com/maps/dir//53+Cabarrus+Ave+W,+Concord,+NC+28025" target="_blank" rel="noopener noreferrer" className="btn-secondary">📍 Get Directions</a>
-            </div>
+
           </div>
           <div className="hero-card">
             <div className="big-number"><span>170</span>+</div>
