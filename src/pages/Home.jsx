@@ -59,7 +59,13 @@ export default function Home() {
             <li><NavLink to="reviews-section">Reviews</NavLink></li>
             <li><NavLink to="contact-section">Contact</NavLink></li>
           </ul>
-          <a href="tel:9802360810" className="nav-phone">☎ 980-236-0810</a>
+          <div className="nav-right-block">
+            <div className="nav-business-name">On-Site Computer Services</div>
+            <div className="nav-action-btns">
+              <a href="tel:9802360810" className="btn-primary">☎ 980-236-0810</a>
+              <a href="https://www.google.com/maps/dir//53+Cabarrus+Ave+W,+Concord,+NC+28025" target="_blank" rel="noopener noreferrer" className="btn-secondary">📍 Get Directions</a>
+            </div>
+          </div>
           <button
             className="hamburger-btn"
             onClick={() => setMenuOpen(!menuOpen)}
