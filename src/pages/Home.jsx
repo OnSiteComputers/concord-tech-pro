@@ -79,6 +79,9 @@ export default function Home() {
 
       {/* TRUST BAR */}
       <section id="trust" className="trust-bar">
+        <div style={{textAlign: 'center', paddingBottom: '24px'}}>
+          <span className="section-tag">Why Choose Us</span>
+        </div>
         <div className="trust-bar-inner">
           <div className="trust-item">
             <span className="t-icon">🏆</span>
