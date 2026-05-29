@@ -107,7 +107,7 @@ export default function Home() {
         <div className="section-inner">
           <span className="section-tag">Why Choose Us</span>
           <h2 className="section-title">Why Trust Us</h2>
-          <p className="section-sub">We don't just fix computers — we find the real problem and fix it right the first time.</p>
+          <p className="section-sub">Discover what sets us apart</p>
           <div className="why-grid">
             <div className="why-card"><div className="why-icon">🔬</div><h3>Expert Diagnosis</h3><p>We find the real problem and fix it right the first time. No guesswork, no unnecessary charges.</p></div>
             <div className="why-card"><div className="why-icon">💻</div><h3>All Types of Computers</h3><p>Desktops, laptops, custom gaming PCs, workstations, and Apple products — we service them all.</p></div>
