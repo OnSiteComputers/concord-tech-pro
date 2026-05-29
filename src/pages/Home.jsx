@@ -34,23 +34,18 @@ export default function Home() {
       {/* NAV */}
       <nav>
         <div className="nav-inner">
-          <a
-            href="#top"
-            className="nav-logo"
-            onClick={(e) => {
-              e.preventDefault();
-              scrollToSection("top");
-            }}
-          >
+          <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
             <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/bb93d1602_onsite_logo_201x196_clear.png" alt="On-Site Computer Service Logo" style={{ height: '100px', width: 'auto', objectFit: 'contain' }} />
-            <div className="nav-logo-text">
+            <div className="nav-logo-text" style={{ paddingTop: '8px' }}>
               <span className="brand">On-Site Computer Service</span>
+              <span className="tagline">53 Cabarrus Ave West, Concord, NC 28025</span>
             </div>
-          </a>
+          </div>
           <button
             className="hamburger-btn"
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
+            style={{ alignSelf: 'flex-end', marginBottom: '8px' }}
           >
             {menuOpen ? (
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">

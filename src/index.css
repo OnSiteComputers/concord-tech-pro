@@ -124,6 +124,8 @@
 .nav-logo { gap: 16px; align-items: flex-start; }
 .nav-logo-text { display: flex; flex-direction: column; justify-content: flex-start; padding-top: 8px; }
 .nav-logo-text .brand { font-family: 'Oswald', sans-serif; font-size: 18px; font-weight: 700; color: var(--navy); line-height: 1.2; letter-spacing: 0.5px; white-space: nowrap; }
+.nav-logo-text .tagline { font-size: 12px; color: var(--text-mid); letter-spacing: 0.3px; font-weight: 500; white-space: nowrap; }
+.hamburger-btn { margin-top: 4px; }
 .nav-links { display: none; }
 .nav-action-btns { display: none; }
 
