@@ -199,7 +199,7 @@
 .reviews { background: var(--gray-light); }
 .reviews-widget-wrap { margin-bottom: 40px; }
 
-.contact { background: var(--white); }
+.contact { background: var(--white); text-align: center; }
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; }
 .contact-form { background: var(--gray-light); border-radius: 16px; padding: 40px; }
 .contact-form h3 { font-family: 'Oswald', sans-serif; font-size: 26px; color: var(--navy); margin-bottom: 24px; }
