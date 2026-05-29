@@ -105,7 +105,7 @@
   font-family: 'Source Sans 3', sans-serif;
   color: var(--text-dark);
   overflow-x: hidden;
-  padding-top: 80px;
+  padding-top: 120px;
   text-align: center;
 }
 .site-wrapper * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -236,7 +236,7 @@
 
 /* HAMBURGER + MOBILE MENU */
 .hamburger-btn { display: block; background: none; border: none; cursor: pointer; color: var(--navy); padding: 6px; line-height: 1; flex-shrink: 0; }
-.mobile-menu { position: fixed; top: 80px; left: 0; right: 0; background: var(--white); z-index: 99998; box-shadow: 0 8px 24px rgba(0,0,0,0.12); border-top: 3px solid var(--orange); }
+.mobile-menu { position: fixed; top: 120px; left: 0; right: 0; background: var(--white); z-index: 99998; box-shadow: 0 8px 24px rgba(0,0,0,0.12); border-top: 3px solid var(--orange); }
 .mobile-menu ul { list-style: none; padding: 8px 0; margin: 0; }
 .mobile-menu ul li a { display: block; padding: 14px 24px; font-family: 'Oswald', sans-serif; font-size: 17px; font-weight: 600; color: var(--navy); text-decoration: none; letter-spacing: 0.5px; text-transform: uppercase; border-bottom: 1px solid var(--gray-mid); transition: color 0.2s, background 0.2s; }
 .mobile-menu ul li a:hover { color: var(--orange); background: var(--gray-light); }
@@ -255,7 +255,7 @@
   .site-footer-final-links a { border-right: none; padding: 6px 10px; }
 }
 @media (max-width: 768px) {
-  .site-wrapper { padding-top: 80px !important; }
+  .site-wrapper { padding-top: 120px !important; }
   .nav-logo-text .tagline { display: none; }
   .section-title { font-size: 32px; }
   .section-sub { font-size: 16px; margin-bottom: 32px; }
