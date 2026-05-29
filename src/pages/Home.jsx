@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-
 const scrollToSection = (id) => {
   const el = document.getElementById(id);
   if (el) {
@@ -29,18 +28,12 @@ export default function Home() {
     setMenuOpen(false);
     setTimeout(() => scrollToSection(id), 50);
   };
+
   return (
     <div className="site-wrapper">
       {/* NAV */}
-      <nav style={{height: '300px', minHeight: '300px'}}>
-        <div className="nav-top-strip">
-          <div className="nav-top-inner">
-            <span>📍 53 Cabarrus Ave West, Concord NC 28025</span>
-            <span>🕐 Mon–Fri: 10am–6pm &nbsp;·&nbsp; Sat: By Appointment</span>
-            <a href="tel:9802360810">☎ 980-236-0810</a>
-          </div>
-        </div>
-        <div className="nav-inner" style={{height: '260px', minHeight: '260px', alignItems: 'center'}}>
+      <nav>
+        <div className="nav-inner">
           <a
             href="#top"
             className="nav-logo"
@@ -49,26 +42,12 @@ export default function Home() {
               scrollToSection("top");
             }}
           >
-            <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/38df801b0_LogonewNoBackgroundnobackgroundfinal3.png" alt="On-Site Computer Service Logo" style={{height: '60px', width: 'auto'}} />
+            <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/38df801b0_LogonewNoBackgroundnobackgroundfinal3.png" alt="On-Site Computer Service Logo" />
             <div className="nav-logo-text">
               <span className="brand">On-Site Computer Services</span>
-              <span className="tagline" style={{display: 'block', marginTop: '4px'}}>53 Cabarrus Ave West<br />Concord, NC 28025</span>
+              <span className="tagline">53 Cabarrus Ave West<br />Concord, NC 28025</span>
             </div>
           </a>
-          <ul className="nav-links">
-            <li><NavLink to="top" className="home-btn">Home</NavLink></li>
-            <li><NavLink to="trust">Why Us</NavLink></li>
-            <li><NavLink to="services-section">Services</NavLink></li>
-            <li><NavLink to="about-section">About</NavLink></li>
-            <li><NavLink to="reviews-section">Reviews</NavLink></li>
-            <li><NavLink to="contact-section">Contact</NavLink></li>
-          </ul>
-          <div className="nav-right-block">
-            <div className="nav-action-btns">
-              <a href="tel:9802360810" className="btn-primary">☎ 980-236-0810</a>
-              <a href="https://www.google.com/maps/dir//53+Cabarrus+Ave+W,+Concord,+NC+28025" target="_blank" rel="noopener noreferrer" className="btn-secondary">📍 Get Directions</a>
-            </div>
-          </div>
           <button
             className="hamburger-btn"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -111,7 +90,6 @@ export default function Home() {
             </div>
             <h1>Concord's Most Trusted<br />Computer Repair — <span>170+ 5-Star Reviews</span></h1>
             <p className="hero-sub">Fast diagnostics. No guesswork. Most repairs completed within 24–48 hours. Many customers come to us after being told their computer couldn't be fixed. Open Mon–Fri 10am–6pm · Sat by Appointment.</p>
-
           </div>
           <div className="hero-card">
             <div className="big-number"><span>170</span>+</div>
