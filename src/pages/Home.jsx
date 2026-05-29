@@ -50,6 +50,10 @@ export default function Home() {
             }}
           >
             <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/38df801b0_LogonewNoBackgroundnobackgroundfinal3.png" alt="On-Site Computer Service Logo" />
+            <div className="nav-logo-text">
+              <span className="brand">On-Site Computer Services</span>
+              <span className="tagline">Computer Repair · Concord, NC</span>
+            </div>
           </a>
           <ul className="nav-links">
             <li><NavLink to="top" className="home-btn">Home</NavLink></li>
@@ -60,7 +64,6 @@ export default function Home() {
             <li><NavLink to="contact-section">Contact</NavLink></li>
           </ul>
           <div className="nav-right-block">
-            <div className="nav-business-name">On-Site Computer Services</div>
             <div className="nav-action-btns">
               <a href="tel:9802360810" className="btn-primary">☎ 980-236-0810</a>
               <a href="https://www.google.com/maps/dir//53+Cabarrus+Ave+W,+Concord,+NC+28025" target="_blank" rel="noopener noreferrer" className="btn-secondary">📍 Get Directions</a>
