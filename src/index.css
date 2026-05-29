@@ -253,11 +253,33 @@
   .nav-logo-text .tagline { font-size: 11px; text-align: center; }
   .nav-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
   .nav-links a { font-size: 12px; }
+  .nav-phone { display: none; }
+  .site-wrapper { padding-top: 96px !important; }
+  .site-wrapper nav { height: 96px !important; min-height: 96px !important; }
+  .nav-inner { height: 96px !important; min-height: 96px !important; gap: 8px; padding: 10px 16px; }
+  .section-title { font-size: 32px; }
+  .section-sub { font-size: 16px; margin-bottom: 32px; }
+  .hero-badge { padding: 12px 20px; margin-bottom: 16px; }
+  .hero-badge .stars { font-size: 22px; }
+  .hero-badge .badge-text { font-size: 16px; }
+  .hero-sub { font-size: 16px; }
+  .hero { padding: 28px 16px 48px; }
+  .site-wrapper section { padding: 30px 16px 60px; }
+  .contact-form { padding: 28px 20px; }
 }
 @media (max-width: 560px) {
   .trust-bar-inner { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: 1fr; }
   .about-stats { grid-template-columns: 1fr; }
   .why-grid { grid-template-columns: 1fr; }
-  .hero h1 { font-size: 38px; }
+  .hero h1 { font-size: 30px; }
+  .section-title { font-size: 26px; }
+  .hero-badge .stars { font-size: 18px; }
+  .hero-badge .badge-text { font-size: 13px; }
+  .hero-badge { padding: 10px 14px; margin-bottom: 12px; }
+  .hero-card .big-number { font-size: 52px; }
+  .hero-card .rating { font-size: 28px; }
+  .stat-box .num { font-size: 40px; }
+  .why-card h3 { font-size: 18px; }
+  .service-card h3 { font-size: 18px; }
 }
