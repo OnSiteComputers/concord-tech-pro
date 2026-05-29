@@ -135,7 +135,7 @@ export default function Home() {
             <div className="why-card"><div className="why-icon">🏘️</div><h3>Home or Business</h3><p>We come to you or you visit our Concord store — flexible options that fit your schedule.</p></div>
           </div>
           <div style={{marginTop: '40px', textAlign: 'center'}}>
-            <a href="#contact-section" className="btn-primary" onClick={(e) => { e.preventDefault(); scrollToSection('contact-section'); }}>Get a Free Diagnosis →</a>
+            <a href="#contact-section" className="btn-primary" onClick={(e) => { e.preventDefault(); scrollToSection('contact-section'); }}>Contact Us Today →</a>
           </div>
         </div>
       </section>
@@ -244,7 +244,7 @@ export default function Home() {
                 </select>
               </div>
               <div className="form-group"><label>Message</label><textarea placeholder="Describe your computer issue..."></textarea></div>
-              <button className="form-submit">Get a Free Diagnosis →</button>
+              <button className="form-submit">Send Message →</button>
             </div>
             <div className="contact-right">
               <h3>Find Us</h3>
