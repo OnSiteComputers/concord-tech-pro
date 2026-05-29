@@ -1,4 +1,4 @@
-import { useEffect, useCallback } from "react";
+import { useState } from "react";
 
 
 const scrollToSection = (id) => {
@@ -23,6 +23,12 @@ const NavLink = ({ to, children, className }) => (
 );
 
 export default function Home() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleNavClick = (id) => {
+    setMenuOpen(false);
+    setTimeout(() => scrollToSection(id), 50);
+  };
   return (
     <div className="site-wrapper">
       {/* NAV */}
@@ -47,8 +53,37 @@ export default function Home() {
             <li><NavLink to="contact-section">Contact</NavLink></li>
           </ul>
           <a href="tel:9802360810" className="nav-phone">☎ 980-236-0810</a>
+          <button
+            className="hamburger-btn"
+            onClick={() => setMenuOpen(!menuOpen)}
+            aria-label="Toggle menu"
+          >
+            {menuOpen ? (
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+              </svg>
+            ) : (
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
+                <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+              </svg>
+            )}
+          </button>
         </div>
       </nav>
+
+      {/* MOBILE MENU DROPDOWN */}
+      {menuOpen && (
+        <div className="mobile-menu">
+          <ul>
+            {[['top','Home'],['trust','Why Us'],['services-section','Services'],['about-section','About'],['reviews-section','Reviews'],['contact-section','Contact']].map(([id, label]) => (
+              <li key={id}>
+                <a href={'#' + id} onClick={(e) => { e.preventDefault(); handleNavClick(id); }}>{label}</a>
+              </li>
+            ))}
+          </ul>
+          <a href="tel:9802360810" className="mobile-menu-phone">☎ 980-236-0810</a>
+        </div>
+      )}
 
       {/* HERO */}
       <section id="top" className="hero">
