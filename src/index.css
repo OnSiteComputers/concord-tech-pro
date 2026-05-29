@@ -105,7 +105,7 @@
   font-family: 'Source Sans 3', sans-serif;
   color: var(--text-dark);
   overflow-x: hidden;
-  padding-top: 176px;
+  padding-top: 300px;
   text-align: center;
 }
 .site-wrapper * { margin: 0; padding: 0; box-sizing: border-box; }
