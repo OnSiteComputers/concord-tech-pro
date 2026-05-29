@@ -121,10 +121,9 @@
 .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 24px; display: flex; align-items: center; justify-content: space-between; height: 120px; }
 .nav-logo { display: flex; align-items: center; gap: 16px; text-decoration: none; cursor: pointer; }
 .nav-logo img { height: 100px; width: auto; object-fit: contain; }
-.nav-logo { gap: 20px; }
-.nav-logo-text { display: flex; flex-direction: column; justify-content: center; }
-.nav-logo-text .brand { font-family: 'Oswald', sans-serif; font-size: 22px; font-weight: 700; color: var(--navy); line-height: 1.2; letter-spacing: 0.5px; white-space: nowrap; }
-.nav-logo-text .tagline { font-size: 13px; color: var(--text-mid); letter-spacing: 0.3px; font-weight: 500; white-space: nowrap; }
+.nav-logo { gap: 16px; align-items: flex-start; }
+.nav-logo-text { display: flex; flex-direction: column; justify-content: flex-start; padding-top: 8px; }
+.nav-logo-text .brand { font-family: 'Oswald', sans-serif; font-size: 18px; font-weight: 700; color: var(--navy); line-height: 1.2; letter-spacing: 0.5px; white-space: nowrap; }
 .nav-links { display: none; }
 .nav-action-btns { display: none; }
 

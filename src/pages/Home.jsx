@@ -44,8 +44,7 @@ export default function Home() {
           >
             <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/bb93d1602_onsite_logo_201x196_clear.png" alt="On-Site Computer Service Logo" style={{ height: '100px', width: 'auto', objectFit: 'contain' }} />
             <div className="nav-logo-text">
-              <span className="brand">On-Site Computer Services</span>
-              <span className="tagline">53 Cabarrus Ave West, Concord, NC 28025</span>
+              <span className="brand">On-Site Computer Service</span>
             </div>
           </a>
           <button
