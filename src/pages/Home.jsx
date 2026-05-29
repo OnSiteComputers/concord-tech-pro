@@ -36,11 +36,7 @@ export default function Home() {
               scrollToSection("top");
             }}
           >
-            {/* TODO: Upload your logo image and replace this src */}
-            <div className="nav-logo-text">
-              <span className="brand">On-Site Computer Service</span>
-              <span className="tagline">Concord, NC · </span>
-            </div>
+            <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/38df801b0_LogonewNoBackgroundnobackgroundfinal3.png" alt="On-Site Computer Service Logo" />
           </a>
           <ul className="nav-links">
             <li><NavLink to="top" className="home-btn">Home</NavLink></li>
@@ -176,12 +172,7 @@ export default function Home() {
               </div>
             </div>
             <div className="about-logo-wrap">
-              {/* TODO: Upload your logo image and update this src */}
-              <div style={{textAlign: 'center', padding: '40px', color: 'var(--navy)', fontFamily: "'Oswald', sans-serif"}}>
-                <div style={{fontSize: '36px', fontWeight: 700, marginBottom: '10px'}}>On-Site</div>
-                <div style={{fontSize: '24px', fontWeight: 600}}>Computer Service</div>
-                <div style={{fontSize: '14px', marginTop: '10px', color: 'var(--text-mid)'}}>Upload your logo image to display here</div>
-              </div>
+              <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/38df801b0_LogonewNoBackgroundnobackgroundfinal3.png" alt="On-Site Computer Service Logo" />
             </div>
           </div>
         </div>
