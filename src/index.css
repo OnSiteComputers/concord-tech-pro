@@ -124,6 +124,7 @@
 .nav-logo { gap: 16px; align-items: flex-start; }
 .nav-logo-text { display: flex; flex-direction: column; justify-content: flex-start; padding-top: 8px; }
 .nav-logo-text .brand { font-family: 'Oswald', sans-serif; font-size: 18px; font-weight: 700; color: var(--navy); line-height: 1.2; letter-spacing: 0.5px; white-space: nowrap; }
+.nav-logo-text .brand-tagline { font-size: 12px; font-style: italic; color: var(--orange-light); font-weight: 600; letter-spacing: 0.3px; line-height: 1; margin: 2px 0; }
 .nav-logo-text .tagline { font-size: 11px; color: var(--text-mid); letter-spacing: 0.3px; font-weight: 500; line-height: 1.3; }
 .nav-links { display: none; }
 .nav-action-btns { display: none; }
