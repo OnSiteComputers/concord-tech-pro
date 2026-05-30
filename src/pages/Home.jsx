@@ -44,6 +44,12 @@ export default function Home() {
               </span>
             </div>
           </div>
+          <div className="nav-links">
+            {[['top','Home'],['services-section','Services'],['about-section','About'],['reviews-section','Reviews'],['contact-section','Contact']].map(([id, label]) => (
+              <a key={id} href={'#' + id} onClick={(e) => { e.preventDefault(); scrollToSection(id); }}>{label}</a>
+            ))}
+            <a href="tel:9802360810" className="nav-call-btn">☎ 980-236-0810</a>
+          </div>
           <button
             className="hamburger-btn"
             onClick={() => setMenuOpen(!menuOpen)}
@@ -82,7 +88,7 @@ export default function Home() {
         <div className="hero-inner">
           <div className="hero-content">
   
-            <h1>Concord's Most Trusted<br />Computer Repair — <span>170+ 5-Star Reviews</span></h1>
+            <h1>Concord's Most Trusted Computer Repair.</h1>
             <p className="hero-sub">Fast diagnostics. No guesswork. Most repairs completed within 24–48 hours. Many customers come to us after being told their computer couldn't be fixed. Open Mon–Fri 10am–6pm · Sat by Appointment.</p>
           </div>
           <div className="hero-card">

@@ -128,6 +128,15 @@
 .nav-links { display: none; }
 .nav-action-btns { display: none; }
 
+@media (min-width: 901px) {
+  .nav-links { display: flex; align-items: center; gap: 4px; }
+  .nav-links a { font-family: 'Oswald', sans-serif; font-size: 15px; font-weight: 600; color: var(--navy); text-decoration: none; text-transform: uppercase; letter-spacing: 0.5px; padding: 8px 14px; border-radius: 6px; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--orange); }
+  .nav-call-btn { background: var(--white); color: var(--navy) !important; padding: 9px 18px !important; border-radius: 18px !important; border: 3px solid #f05a1a; box-shadow: 0 4px 14px rgba(240,90,26,.18); white-space: nowrap; transition: all 0.2s !important; }
+  .nav-call-btn:hover { color: var(--orange) !important; transform: translateY(-2px); }
+  .hamburger-btn { display: none; }
+}
+
 .hero { background: var(--gray-light); padding: 40px 24px 60px; position: relative; overflow: hidden; }
 .hero-inner { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: 1fr 380px; gap: 60px; align-items: center; }
 .hero-badge { display: inline-flex; align-items: center; gap: 10px; background: var(--white); border: 3px solid var(--orange); border-radius: 12px; padding: 18px 32px; margin-bottom: 28px; box-shadow: 0 4px 16px rgba(232,82,26,0.2); transition: transform 0.2s, box-shadow 0.2s; }
