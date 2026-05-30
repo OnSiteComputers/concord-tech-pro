@@ -81,10 +81,7 @@ export default function Home() {
       <section id="top" className="hero">
         <div className="hero-inner">
           <div className="hero-content">
-            <div className="hero-badge">
-              <span className="stars">★★★★★</span>
-              <span className="badge-text">170+ Five-Star Google Reviews</span>
-            </div>
+  
             <h1>Concord's Most Trusted<br />Computer Repair — <span>170+ 5-Star Reviews</span></h1>
             <p className="hero-sub">Fast diagnostics. No guesswork. Most repairs completed within 24–48 hours. Many customers come to us after being told their computer couldn't be fixed. Open Mon–Fri 10am–6pm · Sat by Appointment.</p>
           </div>
@@ -125,7 +122,7 @@ export default function Home() {
       {/* WHY CHOOSE US */}
       <section id="why" className="why">
         <div className="section-inner">
-          <span className="section-tag">Why Choose Us</span>
+
           <h2 className="section-title">Why Trust Us</h2>
           <p className="section-sub">Discover what sets us apart</p>
           <div className="why-grid">
@@ -143,7 +140,7 @@ export default function Home() {
       {/* SERVICES */}
       <section id="services-section" className="services">
         <div className="section-inner">
-          <span className="section-tag">What We Fix</span>
+
           <h2 className="section-title">On-Site or In-Store Repairs Available</h2>
           <p className="section-sub">Whether you want us to come to you or prefer to drop your computer off, we make the process fast, easy, and stress-free.</p>
           <div className="services-grid">
@@ -186,7 +183,7 @@ export default function Home() {
         <div className="section-inner">
           <div className="about-inner">
             <div>
-              <span className="section-tag">About Us</span>
+    
               <h2 className="section-title">25+ Years of Hands-On Experience</h2>
               <p className="section-sub">Hi, I'm Greg — and with over 25 years of hands-on experience, I diagnose and repair computers the right way, no guesswork. From simple issues to systems other shops said were unfixable, I take the time to find the real problem and fix it right. All repairs come with a 90-day warranty.</p>
               <p style={{color: 'var(--text-mid)', fontSize: '16px', lineHeight: 1.7, marginBottom: '36px'}}>We offer both on-site service and in-store repairs at our Concord location, giving you the flexibility to choose what works best for you. Whether you want us to come to you or prefer to drop your computer off, we make the process fast, easy, and stress-free. Proudly serving Concord, Kannapolis, Harrisburg, Huntersville and surrounding areas.</p>
@@ -207,7 +204,7 @@ export default function Home() {
       {/* REVIEWS */}
       <section id="reviews-section" className="reviews">
         <div className="section-inner">
-          <span className="section-tag">Customer Reviews</span>
+
           <h2 className="section-title">What Our Customers Are Saying</h2>
           <p className="section-sub">See why customers across Concord trust On-Site Computer Service for honest, reliable computer repair.</p>
           <div className="reviews-widget-wrap">
@@ -220,7 +217,7 @@ export default function Home() {
       <section id="contact-section" className="contact">
         <div className="section-inner">
           <div style={{textAlign: 'center'}}>
-            <span className="section-tag">Get In Touch</span>
+  
             <h2 className="section-title">Contact Us</h2>
             <p className="section-sub" style={{margin: '0 auto 48px'}}>Have a question or need computer help? We're here for you.</p>
           </div>
