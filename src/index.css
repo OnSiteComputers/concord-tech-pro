@@ -109,7 +109,7 @@
   text-align: center;
 }
 .site-wrapper * { margin: 0; padding: 0; box-sizing: border-box; }
-.site-wrapper section { scroll-margin-top: 105px; }
+.site-wrapper section { scroll-margin-top: 125px; }
 
 .home-btn { background: #ffffff; color: #002868 !important; padding: 0; border-radius: 0; transition: color 0.2s ease; font-weight: 600; }
 .home-btn:hover { background: transparent !important; color: #e8521a !important; transform: none; }
