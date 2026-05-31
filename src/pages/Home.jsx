@@ -35,10 +35,12 @@ export default function Home() {
       <nav>
         <div className="nav-inner">
           <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-            <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/bb93d1602_onsite_logo_201x196_clear.png" alt="On-Site Computer Service Logo" style={{ height: '100px', width: 'auto', objectFit: 'contain' }} />
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              <img src="https://media.base44.com/images/public/6a19abb89e013648dd1cf384/bb93d1602_onsite_logo_201x196_clear.png" alt="On-Site Computer Service Logo" style={{ height: '100px', width: 'auto', objectFit: 'contain' }} />
+              <span className="brand-tagline" style={{ textAlign: 'center' }}>Your Computer's Doctor</span>
+            </div>
             <div className="nav-logo-text" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', paddingTop: '4px' }}>
               <span className="brand" style={{ whiteSpace: 'nowrap' }}>On-Site Computer Service</span>
-              <span className="brand-tagline">Your Computer's Doctor</span>
               <span className="tagline" style={{ flexDirection: 'column', alignItems: 'center', gap: '2px' }}>
                 <span>53 Cabarrus Avenue West</span>
                 <span>Concord, North Carolina</span>
